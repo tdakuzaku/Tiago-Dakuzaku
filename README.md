@@ -12,4 +12,4 @@ For more details see my [Linkedin profile](https://www.linkedin.com/in/tiago-dak
 
 ### Contact
 
- [email](tdakuzaku@gmail.com)
+ Email: tdakuzaku@gmail.com
