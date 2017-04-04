@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title: "Hello World!"
 date: 2017-04-03
 ---
