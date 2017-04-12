@@ -15,5 +15,10 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  -
+    scope:
+      type: "curriculum"
+    values:
+      layout: "curriculum"
 
 # gems: [jekyll-watch]

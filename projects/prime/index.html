@@ -1,0 +1,17 @@
+---
+layout: default
+title: Worker tests | Tiago Dakuzaku
+---
+
+<div class="blurb">
+    <h2>Worker test: Prime number computation</h2>
+    <p>This calculation may turn your browser tab very slow. Sorry  ¯\_(ツ)_/¯</p>
+    <p>The highest prime number discovered so far is: <output id="result"></output></p>
+</div>
+
+<script>
+    var worker = new Worker('js/worker.js');
+    worker.onmessage = function (event) {
+        document.getElementById('result').textContent = event.data;
+    };
+</script>
